@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <title>Shecodes Hackathon 2021 </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Handspeaking</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bài học</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kết nối</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bảng tin</a>
+                    </li>
+                    <li class="nav-item" id='manage'>
+                        <a class="nav-link" href="#">Quản lí</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-2">
+                    <li class="nav-item" id="login-nav">
+                        <a href="login.html" class="nav-link">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item" id="register-nav">
+                        <a href="register.html" class="nav-link">Đăng kí</a>
+                    </li>
+                    <li class="nav-item" id="logout-nav">
+                        <a href="" class="nav-link">Đăng xuất</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDXBruVlHDtnV57v5nbmTOgxuybHmj_l_Q",
+            authDomain: "sign-language-learn.firebaseapp.com",
+            projectId: "sign-language-learn",
+            storageBucket: "sign-language-learn.appspot.com",
+            messagingSenderId: "526577515738",
+            appId: "1:526577515738:web:865a0c6b5e5a7f7240f9e3"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="script/index.js"></script>
+    <script src="script/check-log-in.js"></script>
+</body>
+
+</html>
