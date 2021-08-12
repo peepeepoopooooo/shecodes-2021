@@ -7,4 +7,5 @@
 * Phạm Trần Xuân Anh
 * Cao Thị Minh Phương
 
-## Idea:
+## Guide:
+Ê:))) Các file html và js để trong folder public nha:)), về sau cả css và img cũng z
