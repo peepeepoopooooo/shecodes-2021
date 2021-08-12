@@ -5,6 +5,6 @@
 * Thịnh Trần Khánh Linh
 * Nguyễn Thị Tú Linh
 * Phạm Trần Xuân Anh
-* Minh Phương
+* Cao Thị Minh Phương
 
 ## Idea:
