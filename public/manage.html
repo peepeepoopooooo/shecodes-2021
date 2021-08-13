@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#">Giới thiệu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="lesson.html">Bài học</a>
+                        <a class="nav-link" href="#">Bài học</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kết nối</a>
@@ -57,6 +57,23 @@
     </nav>
 
 
+    <div class="container-fluid" id="manage-container">
+        <h2>Quản lí</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5>Bài học</h5>
+                <input type="text" class="form-control mb-3" placeholder="Tên bài học" id="add-name">
+                
+                <textarea class="form-control mb-3" id="add-content" cols="120" rows="5" placeholder="Nội dung bài học và câu hỏi (format bằng HTML) VD: <b>ví dụ</b> để bôi đen"></textarea>
+                <input type="text" class="form-control mb-3 add-answers" id="correct-answer" placeholder="Đáp án đúng">
+                <input type="text" class="form-control mb-3 add-answers" placeholder="Đáp án sai">
+                <input type="text" class="form-control mb-3 add-answers" placeholder="Đáp án sai">
+                <input type="text" class="form-control mb-3 add-answers" placeholder="Đáp án sai">
+
+                <button class='btn btn-primary' id='add-lesson'>Thêm bài học</button>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -80,7 +97,7 @@
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
     </script>
-    <script src="script/index.js"></script>
+    <script src="script/manage.js"></script>
     <script src="script/check-log-in.js"></script>
 </body>
 

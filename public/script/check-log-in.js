@@ -24,7 +24,7 @@ db.collection("users").onSnapshot(querySnapshot => {
         console.log(doc.data())
         data = doc.data()
         var manage = document.querySelector('#manage')
-        if (user.email==data.email && data.account=='admin') {
+        if (user && user.email==data.email && data.account=='admin') {
             manage.style.display = 'block'
         } else {
             manage.style.display = 'none'
