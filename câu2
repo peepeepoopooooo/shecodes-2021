@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<style>
+  .links {
+    margin-right: 20px;
+
+  }
+  .fullCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(11,156,49), yellow); 
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+    
+  }
+
+  
+</style>
+<div class="fullCard">
+  <div class="cardContent">
+    <div class="cardText">
+      <h2>Câu hỏi 2:</h2>
+      <p>"Đây là CHỮ CÁI nào đây nhỉ?"</p>
+    </div>
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+   <label for="A"><input id="wrong" type="radio" name="quiz2"> A </label>
+   <label for="B"><input id="wrong" type="radio" name="quiz2"> B</label>
+   <label for="C"><input id="correct" type="radio" name="quiz2"> C </label>
+   <label for="D"><input id="wrong" type="radio" name="quiz2"> D <label><br>
+   <button type="submit">Submit</button>
+ </form>
+
+  </div>
+</div><!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<style>
+  body {
+    background: url("https://preview.redd.it/90et56fw0wl41.jpg?width=1920&format=pjpg&auto=webp&s=abce98360a8fe7704cb60893693f772d4fa7c47a")
+  }
+  img {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 3px solid orange;
+    padding: 10px;
+  }
+  h2 { 
+    color: white;
+  }
+  p {
+    color: white;
+  }
+</style>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQku7jeD-25iMQkJcdmUXRWMtrbn4b7J-PBDg&usqp=CAU" alt="Câu 2">
+
+  
